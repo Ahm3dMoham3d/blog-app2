@@ -22,8 +22,7 @@ export default function AddPage() {
       }}
       className="max-w-screen-lg mx-auto"
     >
-      <h4 className="mb-4 text-4xl">Add Post</h4>
-
+      <h4 className="mb-4 text-4xl">Create Post</h4>
       {added && (
         <div className="p-4 mb-4 text-sm rounded-lg bg-blue-50 " role="alert">
           <span className="font-medium">Post added</span> Successfully
